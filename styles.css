@@ -7,32 +7,32 @@ body{
     left: 50%;
     top: 50%;
     position: absolute;
-    height: 50px;
+    height: 15vw;
     display: inline-flex;
     align-items: center;
 }
 svg{
     display: flex;
-    height: 50px;
+    height: 15vw;
     background: darkseagreen;
-    padding-inline: 10px;
+    padding-inline: 4vw;
     fill: white;
 }
 input, .search-box div{
     background: white;
-    height: 50px;
-    width: 200px;
+    height: 15vw;
+    width: 60vw;
     border: none;
     outline: none;
-    font-size: 30px;
-    padding-inline-start: 5px;
+    font-size: 8vw;
+    padding-inline-start: 2.5vw;
 }
 input:before{
     content:"open";
     color: black;
 }
 .search-box div{
-    width:201px;
+    width: calc(60vw + 1px);
     background: darkseagreen;
     position: absolute;
     top: -100%;
